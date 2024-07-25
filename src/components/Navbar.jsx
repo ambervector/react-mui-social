@@ -16,7 +16,7 @@ export const Navbar = () => {
   const StyledToolbar = styled(Toolbar)({
     display: "flex",
     justifyContent: "space-between",
-    backgroundColor: "blue",
+    color: "white",
   });
 
   const Search = styled("div")(({ theme }) => ({
@@ -46,7 +46,7 @@ export const Navbar = () => {
     <AppBar position={"sticky"}>
       <StyledToolbar>
         <Typography variant="h6" sx={{ display: { xs: "none", sm: "block" } }}>
-          Amber
+          Socio
         </Typography>
         <AccountBalanceIcon
           sx={{ display: { xs: "block", sm: "none" }, color: "red" }}
